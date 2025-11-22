@@ -28,3 +28,10 @@ sudo pacman -S base base-devel bspwm burpsuite clang clinfo dmenu docker docker-
 ```bash
 paru -S ffuf
 ```
+
+## Firefox Middle Click Scroll Solution
+
+1. Open Firefox and type `about:config` in the address bar
+2. Click `Accept the Risk and Continue`
+3. In the search box, type `general.autoScroll`
+4. Toggle the value to true (double-click or use the toggle button)
