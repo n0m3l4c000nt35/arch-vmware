@@ -22,7 +22,7 @@ keyboard.typematicMinDelay = "500000"
 ## Install packages
 
 ```bash
-sudo pacman -S base base-devel bspwm burpsuite clang clinfo dmenu docker docker-compose firefox git grub gst-plugin-pipewire gtkmm3 hashcat htop iwd kitty libpulse lightdm lightdm-gtk-greeter linux linux-firmware metasploit nano nfs-utils nmap noto-fonts-emoji ntp open-vm-tools openbsd-netcat opencl-mesa openssh openvpn paru paru-debug pipewire pipewire-alsa pipewire-jack pipewire-pulse pocl polybar python-pipx rlwrap ruby-default-gems ruby-evil-winrm ruby-stdlib rxvt-unicode seclists smartmontools sxhkd ttf-jetbrains-mono-nerd unzip vim wget wireless_tools wireplumber wireshark-qt wpa_supplicant xclip xdg-utils xdo xorg-server xorg-xinit zip zram-generator
+sudo pacman -S base base-devel bind bspwm burpsuite clang clinfo dmenu docker docker-compose firefox git grub gst-plugin-pipewire gtkmm3 hashcat htop iwd kitty libpulse lightdm lightdm-gtk-greeter linux linux-firmware metasploit nano nfs-utils nmap noto-fonts-emoji ntp open-vm-tools openbsd-netcat opencl-mesa openssh openvpn paru paru-debug pipewire pipewire-alsa pipewire-jack pipewire-pulse pocl polybar python-pipx rlwrap ruby-default-gems ruby-evil-winrm ruby-stdlib rxvt-unicode seclists smartmontools sxhkd ttf-jetbrains-mono-nerd unzip vim wget wireless_tools wireplumber wireshark-qt wpa_supplicant xclip xdg-utils xdo xorg-server xorg-xinit zip zram-generator
 ```
 
 ```bash
