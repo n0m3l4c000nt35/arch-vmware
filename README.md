@@ -49,7 +49,7 @@ archinstall
 - Profile
   - Type
     - Desktop: **Bspwm**
-  - Graphics driver: **All open-source**
+  - Graphics driver: **All open-source** *Some packages will be removed after installation
   - Greeter: **lightdm-gtk-greeter**
 - Applications
   - Audio: **Pipewire**
@@ -57,6 +57,22 @@ archinstall
 - Network configuration: **Copy ISO network configuration to installation**
 - Timezone: **America/Argentina/Buenos_Aires**
 - Automatic time sync (NTP): **YES**
+
+**Exit archinstall** and `poweroff`
+
+Take snapshot
+
+`ctrl` + `alt` + `F2`
+
+```bash
+sudo pacman -Rs xf86-video-amdgpu xf86-video-ati xf86-video-nouveau
+sudo pacman -Rs intel-media-driver libva-intel-driver
+sudo pacman -Rs vulkan-intel vulkan-nouveau vulkan-radeon
+```
+
+```bash
+mkdir -p $HOME/.config/{bspwm,sxhkd,kitty,polybar,nvim,htb,thm}
+```
 
 ## Install packages
 
