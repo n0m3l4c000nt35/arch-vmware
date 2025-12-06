@@ -19,6 +19,8 @@ keyboard.vusb.enable = "TRUE"
 keyboard.typematicMinDelay = "500000"
 ```
 
+## Archinstall
+
 ```bash
 loadkeys la-latin1
 setfont ter-v20b
