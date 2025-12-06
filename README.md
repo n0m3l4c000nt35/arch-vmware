@@ -74,13 +74,22 @@ sudo pacman -Rs vulkan-intel vulkan-nouveau vulkan-radeon
 mkdir -p $HOME/.config/{bspwm,sxhkd,kitty,polybar,nvim,htb,thm}
 cp /usr/share/doc/examples/bspwm/bspwmrc $HOME/.config/bspwm/bspwmrc
 cp /usr/share/doc/examples/bspwm/sxhkdrc $HOME/.config/sxhkd/sxhkdrc
-sudo pacman -S open-vm-tools gtkmm3 kitty polybar nvim
+sudo pacman -S open-vm-tools gtkmm3 git kitty polybar nvim
 ```
 
 Add `/usr/bin/vmware-user-suid-wrapper &` to `bspwmrc` be able to copy and paste between your host and guest
 
 ```bash
 echo "/usr/bin/vmware-user-suid-wrapper &" >> $HOME/.config/bspwm/bspwmrc
+```
+
+### Install paru
+
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 ```
 
 ## Install packages
