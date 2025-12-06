@@ -11,7 +11,7 @@
 - **Hard disk**: 100GB
 - **Network adapter**: Bridged (Replicate physical network connection state)
 
-Open `Arch.vmx` and add the following lines:
+Add the following lines to `Arch.vmx` file:
 
 ```
 keyboard.allowBothIRQs = "FALSE"
