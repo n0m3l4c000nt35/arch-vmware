@@ -19,6 +19,43 @@ keyboard.vusb.enable = "TRUE"
 keyboard.typematicMinDelay = "500000"
 ```
 
+```bash
+loadkeys la-latin1
+setfont ter-v20b
+pacman -Sy archinstall
+archinstall
+```
+
+- Archinstall language: **English 100%**
+- Locales
+  - Keyboard layout: **la-latin1**
+  - Locale language: **en_US.UTF-8**
+  - Locale encoding: **UTF-8**
+- Mirrors and repositories
+  - Select regions: **Brazil**
+  - Optional repositories: **multilib**
+- Disk configuration
+  - Partitioning
+    - Use a best-effort default partition layout: **VMware..**
+      - Filesystem: **ext4**
+- Bootloader:
+  - Bootloader: **Grub**
+- Autehntication
+  - User account
+    - Add a user
+      - Should $USER be a superuser (sudo)?: **Yes**
+- Profile
+  - Type
+    - Desktop: **Bspwm**
+  - Graphics driver: **All open-source**
+  - Greeter: **lightdm-gtk-greeter**
+- Applications
+  - Audio: **Pipewire**
+- Kernels: **linux**
+- Network configuration: **Copy ISO network configuration to installation**
+- Timezone: **America/Argentina/Buenos_Aires**
+- Automatic time sync (NTP): **YES**
+
 ## Install packages
 
 ```bash
