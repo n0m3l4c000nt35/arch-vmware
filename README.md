@@ -72,6 +72,8 @@ sudo pacman -Rs vulkan-intel vulkan-nouveau vulkan-radeon
 
 ```bash
 mkdir -p $HOME/.config/{bspwm,sxhkd,kitty,polybar,nvim,htb,thm}
+cp /usr/share/doc/examples/bspwm/bspwmrc $HOME/.config/bspwm/bspwmrc
+cp /usr/share/doc/examples/bspwm/sxhkdrc $HOME/.config/sxhkd/sxhkdrc
 ```
 
 ## Install packages
